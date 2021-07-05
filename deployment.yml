@@ -7,7 +7,6 @@ spec:
   selector:
     matchLabels:
       name: {{appName}}
-      version: {{version}}
   template: # create pods using pod definition in this template
       metadata:
         labels:
